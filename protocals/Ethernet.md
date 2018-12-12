@@ -35,4 +35,23 @@ LAN(Local Area Network)의 규격
 
 ## Ethernet frame
 
-![Ethernet](./imgs/ether.jpg)
+![Ethernet](./imgs/ethernetframe.png)
+Preamble: 0과1을 반복하여 수신기를 준비시키기위한 것
+
+SFP: 1 바이트 짜리의 비트열(10101011)
+- SFD 비트열부터는 바이트 단위로 구성되어 있다는 
+     사실을 알리는 프레임 동기용 비트열 임
+- 마지막 2개의 연속된 1, 즉 11 에 의해 프레임의 시작을 수신기가 알게됨
+
+Destination : Destination의 MAC주소
+
+Source : Source의 MAC주소
+
+EtherType: 뒤에올     https://en.wikipedia.org/wiki/EtherType#Examples
+
+Payload:보낼 data
+
+FCS: 데이터의 에러검출을 위한 [*CRC*](http://www.ktword.co.kr/abbr_view.php?nav=&m_temp1=603&id=744) 코드이다.
+
+
+
