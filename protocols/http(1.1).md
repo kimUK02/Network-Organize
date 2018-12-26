@@ -26,10 +26,9 @@ TCP위에서 작동하는 프로토콜로 이미지, 동영상,오디오, 등등
 - 이를 보한하기 위해 쿠키나 세션이 나왔다.
 
 ---
-
+### HTTP Stream
+![HTTP](./imgs/httpStream.png)
 ### Request Packet
-
-
 
 | Method | Explanation | Body |
 |:--------|:--------:|:--------:|
