@@ -61,16 +61,16 @@ Fragmentation Offset: 조각나기 전의  원래 데이터의 바이트 범위�
 
 ![OFFSET](./imgs/Offset.png)
 
-TTL(time to live): 데이터의 수명을 관장 라우터 1개에 도착하면 1을 TTL 필드를 1씩 
+TTL(time to live) : 데이터의 수명을 관장 라우터 1개에 도착하면 1을 TTL 필드를 1씩 
 
-Protocal: https://en.wikipedia.org/wiki/IPv4#Data
+Protocal : https://en.wikipedia.org/wiki/IPv4#Data
 
-Header Checksum: 오류검출을 위한 부분
+Header Checksum : 오류검출을 위한 부분
 
 (알고리즘은 https://en.wikipedia.org/wiki/IPv4_header_checksum#External_links)
 
-Source address: source IP 
+Source address : source IP 
 
-Destination address: destination IP
+Destination address : destination IP
 
-Option: https://en.wikipedia.org/wiki/IPv4#Options
+Option : https://en.wikipedia.org/wiki/IPv4#Options
