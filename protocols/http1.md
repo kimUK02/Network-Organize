@@ -54,7 +54,7 @@ TCP위에서 작동하는 프로토콜로 이미지, 동영상,오디오, 등등
 #### Head
 * Main Items
 
-|  | Remark | Example |
+|  | Remark | In Example |
 |:---|:---:|:---|
 |Host| URI | dms2015.cafe24.com|
 | From | client mail | X |
