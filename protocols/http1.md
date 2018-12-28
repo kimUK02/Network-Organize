@@ -62,8 +62,10 @@ TCP위에서 작동하는 프로토콜로 이미지, 동영상,오디오, 등등
 |Referer| 바로 직전에 머물렀던 페이지를 저장|X|
 |User-Agent| 브라우저 정보| Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
 |Accept| 원하는 미디어 타입 및 우선순위를알려줌 |text/html, application/xhtml+xml,application/xml; q=0.9,image/webp,image/apng,*/*;q=0.8
+|Accept-Charset|원하는  문자 집합 | X |
+|Accept-Encoding|원하는 문자 인코딩 방식 |gzip, deflate|
+|Accept-Language| 자신이 원하는 가능한 언어 | ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+|
 >Accept에서 q는 가중치
 ---
 
-Accept-Encoding: gzip, deflate
-Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
