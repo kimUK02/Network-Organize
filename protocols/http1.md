@@ -34,6 +34,8 @@ TCP위에서 작동하는 프로토콜로 이미지, 동영상,오디오, 등등
 ### Request Packet
 ![ReqStruct](./imgs/httpReqStruct.jpg)
 
+---
+
 #### Request-line
 >| Method | URI | Version |
 >|:------:|:---:|--------:|
@@ -50,7 +52,7 @@ TCP위에서 작동하는 프로토콜로 이미지, 동영상,오디오, 등등
 >>| TRACE | 메세지가 서버에 도달하는 과정을 추적 | X |
 >>| OPTIONS | 서버가 어떤 메서드를 수행할 수 있는지 확인 | X |
 >>| DELETE | 서버에서 데이타를 삭제한다 | X |
-
+---
 #### Head
 * Main Items
 
@@ -64,7 +66,11 @@ TCP위에서 작동하는 프로토콜로 이미지, 동영상,오디오, 등등
 |Accept| 원하는 미디어 타입 및 우선순위를알려줌 |text/html, application/xhtml+xml,application/xml; q=0.9,image/webp,image/apng,*/*;q=0.8
 |Accept-Charset|원하는  문자 집합 | X |
 |Accept-Encoding|원하는 문자 인코딩 방식 |gzip, deflate|
-|Accept-Language| 자신이 원하는 가능한 언어 | ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+|Accept-Language| 자신이 원하는 가능한 언어 | ko-KRko;q=0.9,en-US;q=0.8,en;q=0.7 |
+Content-Type|mostly Post|body에 올 데이터의 타입|
+>DNT=do not trace
+>
 >Accept에서 q는 가중치
 ---
+#### Body
 
