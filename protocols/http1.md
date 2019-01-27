@@ -103,4 +103,8 @@ TCP위에서 작동하는 프로토콜로 이미지, 동영상,오디오, 등등
 |:--:|:--:|
 |Content-Type|개체가 포함되는 미디어 타입의 정보|
 |Content-Length| 개채의 바이트단위 크기|
-|X-Content-Type-Options|다른 확장자가 들어오는것을 방지하기위해 브라우저에서 파일 | 
+|X-Content-Type-Options|리소스와 MIME TYPE의 일치를 확인하여 무결성 판단| 
+|X-Frame|[ClickJacking](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A6%AD%EC%9E%AC%ED%82%B9#%EB%9D%BC%EC%9D%B4%ED%81%AC%EC%9E%AC%ED%82%B9) 을 방지함|
+|DNT|서버에서 방문자를 추적을 방지|
+
+---
