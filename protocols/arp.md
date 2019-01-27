@@ -45,3 +45,10 @@ ARP Request의 경우 알수 없음 => padding
 
 ## 8. TPA 
 목적지 IP Address
+
+# ARP Spoofing
+![arpspoof](./imgs/arpspoof.png)
+
+### 방어방법 
+1. 정적으로 ARP Table을 관리한다
+2. https같은 암호화가 사용된 프로토콜을 사용한다.
