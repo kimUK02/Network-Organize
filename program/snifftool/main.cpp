@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]) {
     }
     start();
 
-    NetworkInterface iface("wlp2s0");
+    NetworkInterface iface = NetworkInterface::default_interface();
     NetworkInterface::Info info = iface.addresses();
     IPv4Address gw, target, my_ip_addr;
     try{
