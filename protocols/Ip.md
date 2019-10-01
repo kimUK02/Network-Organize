@@ -1,11 +1,12 @@
-# IP 
+# IP
+
 ## Internet Protocol
 
-ip는 osi  계층에서 호스트의 주소지정과 
+ip는 osi  계층에서 호스트의 주소지정과
 
 패킷분할 및 조립을 담당한다.
 
-ip는 흐름에 관여하지 않아 
+ip는 흐름에 관여하지 않아
 
 제대로 갔는지 보장하지 않는다.
 > 만약 보장하고 싶다면 상위 프로토콜인 TCP 를 사용한다
@@ -32,10 +33,7 @@ ip는 원래 전세계에서 유일한 정보를
 >
 >NET-PAT(Port Address Translation)
 방식은 하나의 공인IP를 다수의 사설 IP가 공유하여 사용하는 방식 ![NETPAT](./imgs/ipNAT-PAT.jpeg)
-
 >DHCP란 *(Dynamic Host Configuration Protocal)* ip 자동할당 및 분배 프로토콜로 기확보된 공인 IP 주소 Pool를 집단 공유하며, 사용후 반납
-
-
 
 ## IP Packet
 ![IP](./imgs/ip.png)
@@ -69,7 +67,7 @@ Header Checksum : 오류검출을 위한 부분
 
 (알고리즘은 https://en.wikipedia.org/wiki/IPv4_header_checksum#External_links)
 
-Source address : source IP 
+Source address : source IP
 
 Destination address : destination IP
 
