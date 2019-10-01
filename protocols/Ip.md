@@ -43,10 +43,11 @@ VER(version):  보통 4( **ipv4** )
 HLEN(Header Length): 헤드의 길이를 32비트 단위로 나타낸다. 대부분의 IP 헤더의 길이는 20바이트 입니다. 필드 값은 거의 항상5다
 (5 * 32 = 160bit or 20Byte))
 
-Type of service:  서비스의 우선순위 제공 
+Type of service:  서비스의 우선순위 제공
 (요즘은 거의 안씀)
-> 
-https://en.wikipedia.org/wiki/Differentiated_services
+>
+
+<https://en.wikipedia.org/wiki/Differentiated_services>
 
 TOL(total length): 전체 IP 패킷의 길이를 바이트 단위로 나타낸다
 
