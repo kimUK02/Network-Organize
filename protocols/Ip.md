@@ -9,7 +9,7 @@ ip는 osi  계층에서 호스트의 주소지정과
 ip는 흐름에 관여하지 않아
 
 제대로 갔는지 보장하지 않는다.
-> 만약 보장하고 싶다면 상위 프로토콜인 TCP 를 사용한다
+> 만약 보장하고 싶다면 상위 프로토콜인 [TCP](./tcp.md) 를 사용한다
 ---
 
 ip는 원래 전세계에서 유일한 정보를  
@@ -36,6 +36,7 @@ ip는 원래 전세계에서 유일한 정보를
 >DHCP란 *(Dynamic Host Configuration Protocal)* ip 자동할당 및 분배 프로토콜로 기확보된 공인 IP 주소 Pool를 집단 공유하며, 사용후 반납
 
 ## IP Packet
+
 ![IP](./imgs/ip.png)
 
 VER(version):  보통 4( **ipv4** )
@@ -60,16 +61,16 @@ Fragmentation Offset: 조각나기 전의  원래 데이터의 바이트 범위�
 
 ![OFFSET](./imgs/Offset.png)
 
-TTL(time to live) : 데이터의 수명을 관장 라우터 1개에 도착하면 1을 TTL 필드를 1씩 
+TTL(time to live) : 데이터의 수명을 관장 라우터 1개에 도착하면 1을 TTL 필드를 1씩
 
-Protocal : https://en.wikipedia.org/wiki/IPv4#Data
+Protocal : <https://en.wikipedia.org/wiki/IPv4#Data>
 
 Header Checksum : 오류검출을 위한 부분
 
-(알고리즘은 https://en.wikipedia.org/wiki/IPv4_header_checksum#External_links)
+(알고리즘은 <https://en.wikipedia.org/wiki/IPv4_header_checksum#External_links)>
 
 Source address : source IP
 
 Destination address : destination IP
 
-Option : https://en.wikipedia.org/wiki/IPv4#Options
+Option : <https://en.wikipedia.org/wiki/IPv4#Options>
